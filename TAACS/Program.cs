@@ -13,7 +13,7 @@ namespace TAACS
                 ITextAnalyticsAPI client = new TextAnalyticsAPI
                 {
                     AzureRegion = AzureRegions.Westus,
-                    SubscriptionKey = "6d8d11868c86424ba5d81705c373b877"
+                    SubscriptionKey = "your subscription key"
                 };
 
                 Console.OutputEncoding = System.Text.Encoding.UTF8;
