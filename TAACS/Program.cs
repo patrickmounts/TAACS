@@ -5,16 +5,16 @@ using System.Collections.Generic;
 
 namespace TAACS
 {
-        namespace ConsoleApp1
-    {
         class Program
         {
             static void Main(string[] args)
             {
                 // Create a client.
-                ITextAnalyticsAPI client = new TextAnalyticsAPI();
-                client.AzureRegion = AzureRegions.Westus;
-                client.SubscriptionKey = "ENTER KEY HERE";
+                ITextAnalyticsAPI client = new TextAnalyticsAPI
+                {
+                    AzureRegion = AzureRegions.Westus,
+                    SubscriptionKey = "6d8d11868c86424ba5d81705c373b877"
+                };
 
                 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
